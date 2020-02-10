@@ -1,0 +1,193 @@
+
+
+
+/*media query for pcs*/
+@media only screen and (max-width:1200px)
+{
+    
+    .hero-text-box{
+   
+    width: 100%;
+    padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+
+}
+
+
+/*media query for small phones*/
+@media only screen and (max-width:480px){
+    
+    section{padding:25px 0;}
+    
+    .contact-form{
+
+        width:100%;
+    }
+    
+}
+
+
+
+
+/*media query for bigger phones*/
+@media only screen and (max-width:862px){
+    body{font-size:16px;}
+    
+    section{padding:30px 0;}
+    
+    .row,.hero-text-box{padding:0 4%;}
+    
+    .col{width:100%;}
+    
+    /*.main-nav{display: none;}*/
+    .mobile-nav-icon{display: inline-block;}
+    
+    .main-nav{float: left; 
+              margin-top: 35px;
+              margin-left: 10px;
+    }
+    
+    .main-nav li{display: block;}
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: none;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky{
+    position: fixed;
+    background-color:rgba(255,255,255,0.98);
+    width:100%;
+    left: 0;
+    top:0;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 999;
+   
+    
+    
+    
+}
+.sticky .main-nav li a:link,.main-nav li a:visited{
+    
+    padding: 10px 0;
+    
+    
+    
+    
+    }
+.sticky .main-nav{margin-top: 10px;}
+    
+
+    
+ 
+    .sticky .query{color: #fff;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1{font-size: 180%}
+    
+    h2{font-size: 150%}
+    
+    .long-copy{ width:100%;
+                margin-left:0%
+              
+              }
+    
+    .work-steps:last-of-type{margin-bottom: 20px;}
+    
+    .work-steps{margin-bottom: 20px;}
+    
+    .work-steps{margin-bottom: 20px;}
+    
+    .work-steps div p{
+        
+        height: 40px;
+        width:40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    .steps-box:first-child{text-align: center;}
+    
+    .app-screen{width:40%}
+    
+    
+    .col{
+        width:100%;
+        
+        margin:0 0 4% 0;
+    }
+    
+    .hero-text-box{
+        margin-top: 80px;
+    }
+}
+
+/*media query for tablets*/
+@media only screen and (max-width:1023px){
+    body{font-size: 18px;}
+    section{60px 0}
+    .long-copy{
+    
+    width: 80%;
+    margin-left: 10%;}
+    
+    .steps-box{ margin-top:10px;}
+    
+    .work-steps{margin-bottom: 80px;}
+    
+    .work-steps:last-child{margin-top:10px;}
+    
+    .app-screen{width:50%}
+    
+    .worl-steps:last-of-type{margin-bottom: 60px;}
+    
+    .icon-small{width:17px;
+    margin-right:15px}
+    
+    .city-features{font-size: 82%;}
+    
+    .plan-box{width:100%;
+              margin-left: 0;}
+    
+    .plan-price{font-size: 250%;}
+    
+    .form-contact{width:80%}
+    
+    
+   
+}
